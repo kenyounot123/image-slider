@@ -1,16 +1,13 @@
 .slide-1 {
   border: 4px red solid;
-  display: none;
 }
 .slide-2 {
   border: 4px blue solid;
+  display: none;
 }
 .slide-3 {
   border: 4px green solid;
   display: none;
-}
-.active {
-  display: block;
 }
 .slides-container {
   border: 5px black solid;
@@ -49,4 +46,16 @@
 }
 .dots:hover {
   opacity: 0.1;
+}
+.slide-transition {
+  animation: slide-in 0.5s ease-in-out forwards;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
