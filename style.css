@@ -47,6 +47,9 @@
 .dots:hover {
   opacity: 0.1;
 }
+.active-dot {
+  opacity: 0.5;
+}
 .slide-transition {
   animation: slide-in 0.5s ease-in-out forwards;
 }
