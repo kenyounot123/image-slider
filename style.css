@@ -1,11 +1,13 @@
 .slide-1 {
   border: 4px red solid;
+  display: none;
 }
 .slide-2 {
   border: 4px blue solid;
 }
 .slide-3 {
   border: 4px green solid;
+  display: none;
 }
 .active {
   display: block;
