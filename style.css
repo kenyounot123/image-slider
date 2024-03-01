@@ -1,0 +1,50 @@
+.slide-1 {
+  border: 4px red solid;
+}
+.slide-2 {
+  border: 4px blue solid;
+}
+.slide-3 {
+  border: 4px green solid;
+}
+.active {
+  display: block;
+}
+.slides-container {
+  border: 5px black solid;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.right-arrow {
+  transform: rotate(45deg);
+  align-self: center;
+}
+.left-arrow {
+  transform: rotate(-135deg);
+  align-self: center;
+}
+.arrow {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-top: 5px solid #000;
+  border-right: 5px solid #000;
+}
+.arrow:hover {
+  opacity: 0.1;
+}
+.carousel-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.dots {
+  width: 20px;
+  aspect-ratio: 1;
+  border-radius: 100vw;
+  background-color: black;
+}
+.dots:hover {
+  opacity: 0.1;
+}

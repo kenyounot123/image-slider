@@ -1,7 +1,7 @@
 {
-  "name": "js-template",
+  "name": "image-slider",
   "version": "1.0.0",
-  "description": "Repository template",
+  "description": "Image Slider javascript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
